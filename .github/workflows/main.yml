@@ -19,8 +19,8 @@ jobs:
         with:
           # Defines the range of number of commits
           # Change to your desierd lower and upper bound
-          lower-bound: 0
-          upper-bound: 6
+          lower-bound: 10
+          upper-bound: 100
           # Change to your GitHub username
           user-name: X-itachi-X
           # Change to your email used for GitHub account
