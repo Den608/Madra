@@ -3,7 +3,7 @@ on:
   schedule:
     # Makes commit(s) at 9am daily
     # Change to whatever cron expression you like
-    - cron: "0 8 * * *"
+    - cron: "0 9 * * *"
 
 jobs:
   lit-job:
@@ -19,8 +19,8 @@ jobs:
         with:
           # Defines the range of number of commits
           # Change to your desierd lower and upper bound
-          lower-bound: 10
-          upper-bound: 100
+          lower-bound: 40
+          upper-bound: 60
           # Change to your GitHub username
           user-name: X-itachi-X
           # Change to your email used for GitHub account
